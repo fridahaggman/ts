@@ -1,7 +1,7 @@
 // Lite data om katter i en array
 const cats = [
     { name: "Misse", breed: "Maine Coon" },
-    { name: "Max", breed: "Siames" },
+    { name: "Morris", breed: "Siames" },
     { name: "Emil", breed: "Bondkatt" },
     { name: "Chicco", breed: "Bengal" },
     { name: "Texas", breed: "Ragdoll" }
