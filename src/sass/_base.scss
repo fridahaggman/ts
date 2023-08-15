@@ -1,0 +1,29 @@
+/* Variabler och basstilar */
+$font-stack: Georgia, 'Times New Roman', Times, serif;  // Typsnitt, font-family
+$text-color: #333;  // Textfärg
+$primary-color: rgb(226, 206, 172);  // Huvudfärg
+$h1-color: rgb(85, 61, 28);
+$h2-color: rgb(103, 75, 35);
+$alm-white: #eaeaea;  // Ljusgrå färg
+
+/* Basstilar */
+body {
+    font: 100% $font-stack;  // Det angivna typsnittet
+    background-color: $primary-color;
+    color: $text-color;  // Valda textfärg
+    background-color: $primary-color;  // Huvudfärg
+    font-size: 1.2em;  // 1.2em som standardtextstorlek
+}
+
+h1 {
+    font-size: 60px;
+    color: $h1-color;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    color: $h2-color;
+    text-decoration: underline;
+}

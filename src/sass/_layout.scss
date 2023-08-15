@@ -1,0 +1,15 @@
+@import 'base';
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center; /* Centrerar horisontellt */
+    gap: 1em;
+    text-align: center; /* Centrerar vertikalt */
+}
+
+img {
+    max-width: 250px;
+    border: 3px solid $text-color;
+}
